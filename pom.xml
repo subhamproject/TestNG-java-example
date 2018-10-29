@@ -51,6 +51,19 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.0</version>
 			</plugin>
+			
+			<distributionManagement>
+        <repository>
+            <id>NexusServer</id>
+            <name>deployment</name>
+            <url>http://172.16.0.103:8081/repository/NEXUS_REPO2/</url>
+        </repository>
+        <snapshotRepository>
+            <id>NexusServer</id>
+            <name>deployment</name>
+            <url>http://172.16.0.103:8081/repository/NEXUS_REPO1/</url>
+        </snapshotRepository>
+</distributionManagement>
 			<plugin>
 				<groupId>com.qmetry</groupId>
 				<artifactId>automation</artifactId>
