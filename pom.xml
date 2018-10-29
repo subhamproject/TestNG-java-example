@@ -52,18 +52,6 @@
 				<version>2.22.0</version>
 			</plugin>
 			<plugin>
-  <distributionManagement>
-        <repository>
-            <id>NexusServer</id>
-            <name>deployment</name>
-            <url>http://172.16.0.103:8081/repository/SAMPLE_REL/</url>
-        </repository>
-        <snapshotRepository>
-            <id>NexusServer</id>
-            <name>deployment</name>
-            <url>http://172.16.0.103:8081/repository/SUBHAM_SNAP/</url>
-        </snapshotRepository>
-</distributionManagement>
 				<groupId>com.qmetry</groupId>
 				<artifactId>automation</artifactId>
 				<version>1.0.2</version>
@@ -78,5 +66,17 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+        <repository>
+            <id>NexusServer</id>
+            <name>deployment</name>
+            <url>http://172.16.0.103:8081/repository/SAMPLE_REL/</url>
+        </repository>
+        <snapshotRepository>
+            <id>NexusServer</id>
+            <name>deployment</name>
+            <url>http://172.16.0.103:8081/repository/SUBHAM_SNAP/</url>
+        </snapshotRepository>
+</distributionManagement>
 
 </project>
