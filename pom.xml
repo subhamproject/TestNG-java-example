@@ -52,7 +52,7 @@
 				<version>2.22.0</version>
 			</plugin>
 			
-			<distributionManagement>
+<distributionManagement>
         <repository>
             <id>NexusServer</id>
             <name>deployment</name>
