@@ -127,13 +127,13 @@ under the License.
     </server>
    <server>
       <id>aws-release</id>
-      <username>admin</username>
-      <password>admin123</password>
+      <username>${Access_Key_Id}</username>
+      <password>${Secret_Key}</password>
     </server>
     <server>
       <id>aws-snapshot</id>
-      <username>admin</username>
-      <password>admin123</password>
+      <username>${Access_Key_Id}</username>
+      <password>${Secret_Key}</password>
     </server>
     <!-- Another sample, using keys to authenticate.
     <server>
