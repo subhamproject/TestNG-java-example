@@ -87,7 +87,7 @@
         <snapshotRepository>
             <id>aws-snapshot</id>
             <name>rcx-snapshot</name>
-            <url>s3://rcx-bucket/snapshot</url>
+            <url>s3://rcx-new/snapshot</url>
         </snapshotRepository>
 </distributionManagement>
 
