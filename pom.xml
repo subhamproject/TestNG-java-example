@@ -82,12 +82,12 @@
         <repository>
             <id>aws-release</id>
             <name>rcx-release</name>
-            <url>s3://rcx-bucket/release</url>
+            <url>s3://rcx-new/release</url>
         </repository>
         <snapshotRepository>
             <id>aws-snapshot</id>
             <name>rcx-snapshot</name>
-            <url>s3://rcx-test/snapshot</url>
+            <url>s3://rcx-bucket/snapshot</url>
         </snapshotRepository>
 </distributionManagement>
 
