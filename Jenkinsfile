@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3-alpine'
-            args '-v /root/.m2:/root/.m2'
+            args '-v /root/.m2:/root/.m2 -e Access_Key_Id=AKIAIR5Z5LTXISYMS7FA -e Secret_Key=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'
         }
     }
     stages {
