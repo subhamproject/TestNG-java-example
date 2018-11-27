@@ -56,6 +56,11 @@
       <artifactId>maven-s3-wagon</artifactId>
       <version>1.2.1</version>
     </extension>
+   <extension>
+            <groupId>com.gkatzioura.maven.cloud</groupId>
+            <artifactId>s3-storage-wagon</artifactId>
+            <version>1.0</version>
+        </extension>
   </extensions>
 		<plugins>
 			<plugin>
