@@ -90,7 +90,7 @@
         </repository>
         <snapshotRepository>
             <id>my-repo-bucket-snapshot</id>
-            <url>s3://rcx-test/snapshot</url>
+            <url>s3://reactorcx-mvn-artifacts-repo/rcx-conexxus/snapshot</url>
         </snapshotRepository>
 </distributionManagement>
 
