@@ -90,7 +90,7 @@
         </repository>
         <snapshotRepository>
             <id>my-repo-bucket-snapshot</id>
-            <url>s3://rcx-bucket/project2/snapshot</url>
+            <url>s3://rcx-bucket/project3/snapshot</url>
         </snapshotRepository>
 </distributionManagement>
 
