@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn clean deploy'
+                sh 'mvn clean deploy -DAWS_DEFAULT_REGION=ap-southeast-1'
             }
         }
         stage('Test') {
