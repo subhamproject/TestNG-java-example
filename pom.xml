@@ -86,11 +86,11 @@
 	<distributionManagement>
         <repository>
             <id>my-repo-bucket-release</id>
-            <url>s3://rcxx-new/release</url>
+            <url>s3://rcx-new/release</url>
         </repository>
         <snapshotRepository>
             <id>my-repo-bucket-snapshot</id>
-            <url>s3://rcxx-new/snapshot</url>
+            <url>s3://rcx-new/snapshot</url>
         </snapshotRepository>
 </distributionManagement>
 
