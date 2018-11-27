@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3-alpine'
-            args '-u 997 -v /root/.m2:/root/.m2 -v /etc/passwd:/etc/passwd -v /etc/group:/etc/group'
+            args '-u 997 -v /root/.m2:/root/.m2 -v /etc/passwd:/etc/passwd -v /etc/group:/etc/group -v /var/lib/jenkins:/var/lib/jenkins'
         }
     }
     stages {
